@@ -1,3 +1,4 @@
+<style>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 :root {
@@ -1550,3 +1551,471 @@ p {
               line-height: 14px !important;
             }
           }
+
+/* WordPress/Gutenberg conflict fixes scoped to this landing */
+.nl-landing,
+.nl-landing * {
+  box-sizing: border-box;
+}
+
+.nl-landing {
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif !important;
+  color: #0B2E6D !important;
+  line-height: 1.6 !important;
+  max-width: 100% !important;
+}
+
+.nl-landing .container {
+  max-width: 1120px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.nl-landing h1,
+.nl-landing h2,
+.nl-landing h3 {
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif !important;
+  color: #0B2E6D !important;
+  margin: 0 0 16px !important;
+}
+
+.nl-landing p,
+.nl-landing li,
+.nl-landing a {
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif !important;
+}
+
+.nl-landing .site-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 999 !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+}
+
+.nl-landing .hero-grid {
+  display: grid !important;
+  gap: 36px !important;
+}
+
+@media (min-width: 768px) {
+  .nl-landing .hero-grid {
+    grid-template-columns: 1.15fr 0.85fr !important;
+  }
+
+  .nl-landing .price-grid {
+    grid-template-columns: 1.1fr 0.9fr !important;
+    display: grid !important;
+    gap: 24px !important;
+  }
+
+  .nl-landing .header-nav {
+    display: flex !important;
+  }
+}
+
+.nl-landing .card {
+  background: #F7F9FF !important;
+  border: 1px solid rgba(11, 46, 109, 0.12) !important;
+  border-radius: 16px !important;
+  padding: 24px !important;
+}
+
+.nl-landing img {
+  max-width: 100% !important;
+  display: block !important;
+  height: auto !important;
+}
+</style>
+<div class="nl-landing">
+<a class="skip-link" href="#top">Preskoči na sadržaj</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <img src="https://nikolanewsletter.com/images/logo.png" alt="Logo" />
+    </div>
+    <nav class="header-nav">
+      <a href="#zasto">Zašto</a>
+      <a href="#benefiti">Benefiti</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn btn-mini" href="#prijava">Prijavi se (32€)</a>
+  </div>
+</header>
+<main>
+<section id="top" class="hero">
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <p class="eyebrow">Online radionica · Zoom · ograničen broj mesta</p>
+      <h1>Piši newsletter brže uz AI, ali da i dalje zvuči kao ti.</h1>
+      <div class="hero-cta">
+        <a class="btn" href="#cena">Prijavi se</a>
+        <a class="link" href="#benefiti">Pogledaj benefite</a>
+      </div>
+      <p class="lead"><b>Praktična radionica</b> na kojoj ti pokazujem kako da uspešno koristiš ChatGPT, Gemini, Claude i Google AI Studio potpuno besplatno za pisanje newslettera. Saznaćeš kako da dobiješ bolji draft, jasniju strukturu i uverljiv ton u svom newsletteru bez generičkog teksta, a da zvuči najpribližnije tvom tonu komunikacije.</p>
+    </div>
+    <div class="hero-media">
+      <img src="https://nikolanewsletter.com/images/moja-slika.png" alt="Moja fotografija" />
+    </div>
+  </div>
+</section>
+
+<section class="hero-split">
+  <div class="container split-grid">
+    <div class="hero-details">
+      <h3>Detalji</h3>
+      <ul class="detail-list">
+        <li><span class="icon">📅</span><span>25.02.2026</span></li>
+        <li><span class="icon">⏰</span><span>19:00 (Europe/Belgrade)</span></li>
+        <li><span class="icon">💻</span><span>Zoom radionica uživo</span></li>
+        <li><span class="icon">🕒</span><span>Trajanje: oko 60 min + Q&amp;A</span></li>
+        <li><span class="icon">🎥</span><span>snimak dobijaš zauvek</span></li>
+        <li><span class="icon">💶</span><span>investicija je samo 32€</span></li>
+        <li><span class="icon">👥</span><span>Broj mesta ograničen zbog uspešnije radionice</span></li>
+        <li><span class="icon">🧾</span><span>Nakon prijave stižu ti odmah instrukcije za uplatu (račun ili PayPal). Nakon izvršene uplate i link za Zoom</span></li>
+        <li><span class="icon">📌</span><span>25.02.2026 u 19:00 · Zoom · oko 60 min · snimak dobijaš zauvek · 32€</span></li>
+      </ul>
+    </div>
+    <div class="hero-brief">
+      <h3>Ukratko</h3>
+      <ul class="brief-list">
+        <li><span class="icon">✨</span><span>Za koga: freelanceri, preduzetnici, marketari, copywriteri</span></li>
+        <li><span class="icon">🧭</span><span>Rezultat: jasna struktura + ponovljiv proces</span></li>
+        <li><span class="icon">🧰</span><span>Alati: ChatGPT, Gemini, Claude, Google AI Studio</span></li>
+        <li><span class="icon">⏱️</span><span>Trajanje: oko 60 min + pitanja</span></li>
+        <li><span class="icon">💶</span><span>Cena: 32€ (snimak kasnije 125€)</span></li>
+        <li><span class="icon">👥</span><span>Kapacitet: 10 mesta</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="zasto" class="section">
+  <div class="container split">
+    <div>
+      <h2>AI može da ubrza pisanje, ali često pokvari ton.</h2>
+      <p>Ako ti je AI već „napisao nešto“, verovatno dobijaš tekst koji zvuči isto kao kod svih. Newsletter tada nije tvoj - i publika to oseti.</p>
+      <p>Na radionici radimo konkretne primere i pokazujem ti kako da zadržiš glas, stil i ritam, dok AI preuzima dosadan deo posla.</p>
+    </div>
+    <div class="card">
+      <h3>Šta najčešće koči?</h3>
+      <ul>
+        <li>🧩 Nejasan brief - nikada ne dobiješ ono što želiš.</li>
+        <li>🕒 Više vremena ode na ispravke nego na pisanje.</li>
+        <li>🗣️ Tekst zvuči „kao da ga je pisao AI“.</li>
+        <li>🤯 AI počinje da te nervira i ne znaš kako da mu se obraćaš - piše preširoko i nikako da pogodi suštinu.</li>
+        <li>🧱 Ne znaš kako da formatiraš ispravno sadržaj.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="kome" class="section">
+  <div class="container">
+    <h2>Za koga je radionica</h2>
+    <p>Za ljude koji pišu newsletter sami, ali žele da to rade brže, lakše i kvalitetnije - bez gubitka autentičnosti.</p>
+    <div class="grid-3">
+      <div class="card">
+        <h3>Vlasnici biznisa</h3>
+        <p>Edukatori, content creatori, mentori, coachevi, terapeuti, proizvodni i uslužni biznisi kojima treba jasna putanja koja daje rezultate, a ne troši energiju.</p>
+      </div>
+      <div class="card">
+        <h3>Konsultanti i uslužne delatnosti</h3>
+        <p>Ovakav način zadavanja zadatka jezičkom modelu, osim newslettera, može se primeniti i na komunikaciju sa AI agentima za druge sfere poslovanja.</p>
+      </div>
+      <div class="card">
+        <h3>Marketari i copywriteri</h3>
+        <p>Kreiranje sadržaja za sebe i za druge može biti zamorno ako se ne radi ispravno i u skladu sa tonom komunikacije koji AI prihvata.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="benefiti" class="section">
+  <div class="container">
+    <div class="benefits-grid">
+      <div class="benefits-text">
+        <h2>Šta dobijaš nakon radionice?</h2>
+        <p class="benefits-lead">Jasan proces koji možeš da koristiš odmah - bez nagađanja, bez generičkih tekstova.</p>
+        <ul class="benefits">
+          <li>✅ Kratak i logičan workflow pisanja prompta</li>
+          <li>✅ Prompt koji možeš da kopiraš i prilagodiš</li>
+          <li>✅ Više ideja, manje „praznog hoda“</li>
+          <li>✅ Ton i stil koji zvuče kao ti, ne kao AI</li>
+          <li>✅ Bolji naslovi, uvodi i CTA bez napora</li>
+        </ul>
+        <p class="proof">U praksi ovo često znači uštedu i do 10 sati mesečno.</p>
+      </div>
+      <div class="benefits-media">
+        <img src="https://nikolanewsletter.com/images/radionica.png" alt="Fotografija sa radionice" />
+      </div>
+    </div>
+    <div class="benefits-cta">
+      <a class="btn" href="#cena">Prijavi se odmah</a>
+    </div>
+  </div>
+</section>
+<section id="agenda" class="section">
+  <div class="container">
+    <h2>Agenda radionice</h2>
+    <p>Kratko, jasno i praktično - bez teorije koja ne može da se primeni.</p>
+    <div class="grid-2">
+      <div class="card">
+        <ul>
+          <li>🧭 Kako AI „razmišlja“ i zašto to menja pristup pisanju?</li>
+          <li>✍️ Prompt koji vodi do dobrog drafta</li>
+          <li>🧱 Struktura newslettera: naslov, uvod, telo, CTA</li>
+          <li>🗣️ „Human touch“: ton, stil, lična priča</li>
+        </ul>
+      </div>
+      <div class="card">
+        <ul>
+          <li>🔍 Edit, fact - check i privatnost</li>
+          <li>⚙️ Workflow: ideja - pisanje - slanje</li>
+          <li>💸 Poređenje free vs paid alata na istom primeru</li>
+          <li>🧰 Alati: ChatGPT, Gemini, Claude, Google AI Studio</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="demo" class="section">
+  <div class="container">
+    <div>
+      <h2>Live demo - pišemo jedan newsletter uživo</h2>
+      <div class="text-justify">
+        <p>Od ideje do finalnog teksta deli te samo jedan korak. Videćeš kako izgleda realan proces i gde AI pravi najveću razliku.</p>
+        <p>Ovo je jedino mesto i prilika gde možeš da doneseš svoj napisan newsletter i da zajedno na licu mesta radimo na njemu sa AI alatima.</p>
+        <p>Newsletter je potrebno da mi pošalješ na mail najkasnije do početka radionice.</p>
+        <p>Posle toga ćeš tačno znati kako da to ponoviš već za sledeći newsletter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="primer" class="section">
+  <div class="container split">
+    <div class="primer-media">
+      <img src="https://nikolanewsletter.com/images/logo.png" alt="Logo" />
+    </div>
+    <div class="card">
+      <h3>Šta poslati?</h3>
+      <ul>
+        <li>✉️ Jedan ili dva newslettera</li>
+        <li>🧠 Ton koji želiš da zadržiš</li>
+        <li>🎯 Konkretne dileme ili pitanja</li>
+      </ul>
+      <p>Tako ćemo kroz realan primer testirati.</p>
+      <p>Mail pošalji na <strong>contact@nikolanewsletter.com</strong></p>
+    </div>
+  </div>
+</section>
+<section id="cena" class="section">
+  <div class="container">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap;">
+      <h2>Cena i dostupnost</h2>
+      <h2 style="margin: 0; transform: translateX(-23px);">👇Prijavi se ovde👇</h2>
+    </div>
+    <div class="price-grid">
+      <div class="card price">
+        <h3>Cena uživo: 32€</h3>
+        <p>Nakon radionice snimak: 125€</p>
+        <div class="details">
+          <h4>Detalji:</h4>
+          <ul>
+            <li>📅 25.02.2026</li>
+            <li>⏰ 19:00 (Europe/Belgrade)</li>
+            <li>💻 Zoom radionica uživo</li>
+            <li>🕒 Trajanje: oko 60 min + Q&amp;A</li>
+            <li>🎥 snimak dobijaš zauvek</li>
+            <li>💶 investicija je samo 32€</li>
+            <li>👥 Broj mesta ograničena samo na 10</li>
+            <li>
+              🧾 Nakon prijave stižu ti odmah instrukcije za uplatu (račun ili
+              PayPal). Nakon izvršene uplate i link za Zoom
+            </li>
+          </ul>
+          <p>📌 25.02.2026 u 19:00 · Zoom · oko 60 min · snimak dobijaš zauvek · 32€</p>
+        </div>
+      </div>
+      <div class="card">
+
+
+        <div id="prijava"></div>
+        <div id="mlb2-36309211" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-36309211">
+          <div class="ml-form-align-center ">
+            <div class="ml-form-embedWrapper embedForm">
+              <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                <div class="ml-form-embedContent">
+                  <h4>Online zoom radionica</h4>
+                  <p>Nakon što uneseš ime i mail adresu, stići će ti na mail instrukcije za uplatu radionice. Zamolio bih te da mi pošalješ dokaz o uplati kako bih ti čim pre poslao link za radionicu.</p>
+                </div>
+
+                <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/194061/forms/177762850851260363/subscribe" data-code="" method="post" target="_blank">
+                  <div class="ml-form-formContent">
+                    <div class="ml-form-fieldRow ">
+                      <div class="ml-field-group ml-field-name ml-validate-required">
+                        <input aria-label="name" aria-required="true" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Ime" autocomplete="given-name">
+                      </div>
+                    </div>
+                    <div class="ml-form-fieldRow ml-last-item">
+                      <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                        <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="ml-form-embedPermissions">
+                    <div class="ml-form-embedPermissionsContent default privacy-policy">
+                      <p>Sa ove liste se u svakom momentu možeš odjaviti klikom na dugme "Unsubscribe". Informacije koje podeliš&nbsp;se čuvaju i obrađuju u skladu sa <span><a href="https://nikolanewsletter.com/politika-privatnosti-podataka/" target="_blank"><strong>politikom privatnosti</strong></a></span>.</p>
+                    </div>
+                  </div>
+
+                  <input type="hidden" name="ml-submit" value="1">
+
+                  <div class="ml-form-embedSubmit">
+                    <button type="submit" class="primary">Prijavi se</button>
+                    <button disabled="disabled" style="display: none;" type="button" class="loading">
+                      <div class="ml-form-embedSubmitLoad"></div>
+                      <span class="sr-only">Loading...</span>
+                    </button>
+                  </div>
+
+                  <input type="hidden" name="anticsrf" value="true">
+                </form>
+              </div>
+
+              <div class="ml-form-successBody row-success" style="display: none">
+                <div class="ml-form-successContent">
+                  <h4>Hvala na prijavi! ✅</h4>
+                  <p><br></p>
+                  <p><span style="font-size: 20px;">Sada je <strong>NEOPHODNO</strong>&nbsp;da proveriš svoj mail jer sam ti poslao instrukcije za uplatu.</span></p>
+                  <p><span style="font-size: 20px;"><br></span></p>
+                  <p><span style="font-size: 20px;">Proveri svoj mail sada odmah da posle ne zaboraviš jer onda može da se desi da propustiš važne informacije koje ti mogu biti korisne i zanimljive.</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <script>
+          function ml_webform_success_36309211() {
+            var $ = ml_jQuery || jQuery;
+            $('.ml-subscribe-form-36309211 .row-success').show();
+            $('.ml-subscribe-form-36309211 .row-form').hide();
+          }
+        </script>
+
+        <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+        <script>
+          fetch("https://assets.mailerlite.com/jsonp/194061/forms/177762850851260363/takel")
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="o-meni" class="section">
+  <div class="container">
+    <div style="text-align: justify;">
+      <h2>O meni</h2>
+      <p><strong>Osnivač mentorskog programa za male biznise za unapređenje prodaje putem mejla</strong></p>
+      <p>Dok ostatak sveta šalje mejlove i piše newsletter reda radi, moja ideja je bila da suštinski zaronim u psihološku strategiju za unapređenje prodaje putem mejla i sve to implementiram na živom primeru.</p>
+      <p>Nakon više od 350 nedelja slanja newslettera i konzistentnosti bez ijedne jedine srede izuzetka odlučio sam da svojim znanjem, veštinama proverenim i testiranim u praksi pomognem malim biznisima da izgrade zajednicu, poverenje, odnos sa svojim klijentima i unaprede prodaju putem mejla.</p>
+      <ul>
+        <li>Iskustvo od preko 8 godina u digitalnom marketingu,</li>
+        <li>Kreiranje kampanja za različite vrste mreža,</li>
+        <li>Poznavanje velikog broja software-a</li>
+      </ul>
+      <p>Sve ovo je doprinelo tome da kreativno implementiram različite inovativne strategije u newsletter koje su dostupne samo ljudima sa kojima sarađujem.</p>
+    </div>
+  </div>
+</section>
+<section id="faq" class="section">
+  <div class="container">
+    <h2>Najčešća pitanja</h2>
+    <div class="accordion">
+      <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+        Da li moram da imam plaćenu verziju alata?
+      </button>
+      <div class="accordion-panel" id="faq-1" role="region" aria-labelledby="faq-1-btn">
+        <p>Ne moraš. Pokazujem i besplatne opcije, uz jasno poređenje sa plaćenim verzijama.</p>
+      </div>
+
+      <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+        Nisam tehnički tip — da li je ovo za mene?
+      </button>
+      <div class="accordion-panel" id="faq-2" role="region" aria-labelledby="faq-2-btn">
+        <p>Da. Radionica je praktična i prilagođena netehničkim korisnicima.</p>
+      </div>
+
+      <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+        Plašim se da će AI ubiti autentičnost mog pisanja.
+      </button>
+      <div class="accordion-panel" id="faq-3" role="region" aria-labelledby="faq-3-btn">
+        <p>Fokus je na tome da AI pojača tvoj glas, a ne da ga zameni.</p>
+      </div>
+
+      <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+        Da li dobijam snimak?
+      </button>
+      <div class="accordion-panel" id="faq-4" role="region" aria-labelledby="faq-4-btn">
+        <p>Da, snimak je dostupan zauvek.</p>
+      </div>
+
+      <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+        Kako se plaća?
+      </button>
+      <div class="accordion-panel" id="faq-5" role="region" aria-labelledby="faq-5-btn">
+        <p>Nakon prijave stižu instrukcije za uplatu (račun ili PayPal).</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>Kontakt: contact@nikolanewsletter.com</p>
+    <a class="link" href="https://nikolanewsletter.com/politika-privatnosti-podataka/#">Politika privatnosti</a>
+  </div>
+</footer>
+<div class="mobile-cta" id="mobile-cta" aria-hidden="true">
+  <a class="btn" href="#prijava">Prijavi se 32€</a>
+</div>
+<script>
+(function(){
+  const links = Array.from(document.querySelectorAll('.nl-landing a[href^="#"]'));
+  const linkHandler = (event) => {
+    const target = event.currentTarget;
+    const targetId = target && target.getAttribute('href');
+    if (!targetId || targetId === '#') return;
+    const section = document.querySelector(targetId);
+    if (!section) return;
+    event.preventDefault();
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+  links.forEach((link) => link.addEventListener('click', linkHandler));
+
+  const triggers = Array.from(document.querySelectorAll('.nl-landing .accordion-trigger'));
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => {
+      const expanded = trigger.getAttribute('aria-expanded') === 'true';
+      triggers.forEach((btn) => btn.setAttribute('aria-expanded', 'false'));
+      trigger.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+    });
+  });
+
+  const mobileCta = document.getElementById('mobile-cta');
+  const heroSection = document.querySelector('.nl-landing .hero');
+  if (mobileCta && heroSection && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          mobileCta.classList.add('visible');
+          mobileCta.setAttribute('aria-hidden', 'false');
+        } else {
+          mobileCta.classList.remove('visible');
+          mobileCta.setAttribute('aria-hidden', 'true');
+        }
+      });
+    }, { threshold: 0.2 });
+    observer.observe(heroSection);
+  }
+})();
+</script>
+</div>
